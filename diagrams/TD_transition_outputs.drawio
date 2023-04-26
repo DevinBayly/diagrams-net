@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T19:27:51.591Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="GcOSlEE4kfWkXoxdh2Vi" version="21.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T19:50:34.247Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="XHMB8FVxxle0yzl6tELi" version="21.2.2" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
     <mxGraphModel dx="1360" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,10 +41,10 @@
           <mxGeometry x="320" y="560" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-17" value="Breathscape" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="680" y="530" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-18" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="680" y="560" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-19" value="Turnup" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="530" width="120" height="30" as="geometry" />
@@ -53,10 +53,10 @@
           <mxGeometry x="440" y="560" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-21" value="Sensor Lab" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="1120" y="530" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-22" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="1120" y="560" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-25" value="TFOB" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="530" width="120" height="30" as="geometry" />
@@ -65,16 +65,16 @@
           <mxGeometry x="560" y="560" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-27" value="Eclipse Party" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="960" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="1240" y="530" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-28" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="960" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="1240" y="560" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-29" value="Flandrau" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="1360" y="530" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-30" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="1360" y="560" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-31" value="cocoon" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="620" width="120" height="30" as="geometry" />
@@ -225,10 +225,70 @@
           <mxGeometry x="680" y="-210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-96" value="Networks I have to track down" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="500" width="180" height="30" as="geometry" />
+          <mxGeometry x="1120" y="490" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-97" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="90" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-1" value="return to the scene changer" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="953" y="-210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-2" value="work a bit with buttons today" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-140" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-3" value="navigating the views making a panel" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="953" y="-80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8prkjfwwkmIOHAyzSjH_-4" target="8prkjfwwkmIOHAyzSjH_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8prkjfwwkmIOHAyzSjH_-4" target="8prkjfwwkmIOHAyzSjH_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="8prkjfwwkmIOHAyzSjH_-4" target="8prkjfwwkmIOHAyzSjH_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-4" value="exercise" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-10" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8prkjfwwkmIOHAyzSjH_-5" target="8prkjfwwkmIOHAyzSjH_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8prkjfwwkmIOHAyzSjH_-5" target="8prkjfwwkmIOHAyzSjH_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-5" value="&lt;div&gt;working with types of inputs found in my networks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="973" y="240" width="106" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-6" value="focus on glsl tops and mats&lt;br&gt;mostly talking about finding uniforms and usng them in certain ways" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="130" width="106" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8prkjfwwkmIOHAyzSjH_-8" target="8prkjfwwkmIOHAyzSjH_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8prkjfwwkmIOHAyzSjH_-8" target="8prkjfwwkmIOHAyzSjH_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-8" value="post processing fundamentals" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="350" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-9" value="&lt;div&gt;using feedback&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="355" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-11" value="using luma blurs" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="389" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-14" value="using the optical flow" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1159" y="250" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-16" value="&lt;div&gt;button trigger something&lt;/div&gt;&lt;div&gt;like the start or end of the scene. the off on thing related to turnup&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="-130" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-18" value="change parameters on two of the effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="10" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8prkjfwwkmIOHAyzSjH_-20" value="update the time that the different effects " style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="60" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
