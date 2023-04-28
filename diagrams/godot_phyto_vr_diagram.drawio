@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-04-28T04:14:20.049Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="BfA8M77vYkanE07hyfaY" version="21.1.4" type="github">
+  <diagram name="Page-1" id="_Jvis2iEVCgYhtDAA1RK">
+    <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFatkiTo-bUGrJ1RlYwo-4" target="ZFatkiTo-bUGrJ1RlYwo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFatkiTo-bUGrJ1RlYwo-4" target="ZFatkiTo-bUGrJ1RlYwo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-4" value="controls" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="275" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-5" value="mouse " style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-8" value="keyboard" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFatkiTo-bUGrJ1RlYwo-10" target="ZFatkiTo-bUGrJ1RlYwo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-10" value="scenes" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ZFatkiTo-bUGrJ1RlYwo-11" target="ZFatkiTo-bUGrJ1RlYwo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFatkiTo-bUGrJ1RlYwo-11" target="ZFatkiTo-bUGrJ1RlYwo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFatkiTo-bUGrJ1RlYwo-11" target="ZFatkiTo-bUGrJ1RlYwo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFatkiTo-bUGrJ1RlYwo-11" target="ZFatkiTo-bUGrJ1RlYwo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-11" value="elements" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-12" value="area" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-14" value="plant ply" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-16" value="vis panel" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-18" value="video" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFatkiTo-bUGrJ1RlYwo-20" target="ZFatkiTo-bUGrJ1RlYwo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-20" value="s1" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFatkiTo-bUGrJ1RlYwo-22" value="&lt;div&gt;tests&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fixedWidth=1;autosize=1;resizeHeight=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
