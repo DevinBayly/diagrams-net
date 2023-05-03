@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T22:06:17.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="jjaQAl8ACkPE0eHL0rOy" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T22:47:55.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="RyydtMQPO4uusyoEwMgD" version="21.2.7" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
     <mxGraphModel dx="2092" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -412,6 +412,15 @@
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-33" value="&lt;div&gt;put common effects into own folder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;a common effect is a sub effect used in multiple scene effects in a show&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="-400" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-34" value="questions" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="972" y="-590" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-35" value="if we have a tox with params nested way down in our network is there a way to tell the parent to add those parameters to it&#39;s own for easy access?" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="-590" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-36" value="store the tox files common to multiple shows in a commons folder" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-560" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
