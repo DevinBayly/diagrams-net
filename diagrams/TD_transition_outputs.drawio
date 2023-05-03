@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T21:45:35.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="c2uQw0cv6ONsBzfOPDd6" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T21:55:17.595Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="CN9r4hO-vLqyij1EVbl-" version="21.2.7" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
     <mxGraphModel dx="2092" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -385,6 +385,21 @@
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-24" value="make a helper python node that lets us make custom parameters a little easier" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="-490" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-25" value="common folder contents" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-1050" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-26" value="scene internal .tox .toe" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-1050" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-27" value="python extension code" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="1219" y="-1050" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-28" value="extension code helper code" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-1010" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-29" value="&lt;div&gt;rationale&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;using a tox for the internal params makes it easy to have a single place to modify the internal parameter operator that we use in show network scene&lt;/div&gt;&lt;div&gt;bases and individual effect .toe files for testing&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="1339" y="-1050" width="120" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
