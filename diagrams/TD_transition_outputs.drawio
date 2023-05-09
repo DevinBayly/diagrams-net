@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T23:10:13.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="DslNevtzuqLpHvDLcAVD" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T23:11:38.646Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="63hLsHvfyXps9JQddLMb" version="21.2.7" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
-    <mxGraphModel dx="2092" dy="3021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3334" dy="3842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1160" width="850" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-1570" width="490" height="380" as="geometry" />
+        </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-5" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="560" width="120" height="30" as="geometry" />
         </mxCell>
@@ -423,13 +429,13 @@
           <mxGeometry x="440" y="-560" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-1" value="&lt;div&gt;scenes&lt;/div&gt;&lt;div&gt;A description of what is contained within the scenes comp&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-1450" width="120" height="70" as="geometry" />
+          <mxGeometry x="90" y="-1550" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-2" value="&lt;div&gt;the internal params .tox&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Scripted to hold onto the common parameters of all components that are tagged with Effect tag&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-1620" width="120" height="130" as="geometry" />
+          <mxGeometry x="270" y="-1550" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-3" value="&lt;div&gt;scene effects&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;s1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;these scenes hold the references to the parameters that control their behavior, they can be brought out of constant mode to make them behave according to the internal scene params (global/consistent behavior) or they can be modified to have customized capabilities&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-1490" width="120" height="330" as="geometry" />
+          <mxGeometry x="400" y="-1550" width="120" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
