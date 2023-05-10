@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T19:27:13.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="viE5t4RSQ7DSjvggtiDh" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T19:29:07.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="A4rnUF0dHZFiTquRM-C3" version="21.2.7" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
-    <mxGraphModel dx="2506" dy="3295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="2747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="520" width="1350" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="-110" width="850" height="420" as="geometry" />
+        </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-230" y="-625" width="850" height="420" as="geometry" />
         </mxCell>
@@ -20,157 +26,157 @@
           <mxGeometry x="50" y="-1490" width="490" height="380" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-5" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-6" value="show networks" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="500" width="120" height="30" as="geometry" />
+          <mxGeometry x="-319" y="610" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-7" value="&lt;div&gt;plan&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="-40" width="120" height="30" as="geometry" />
+          <mxGeometry x="-220" y="-100" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-8" value="take apart previous shows networks" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="-10" width="120" height="40" as="geometry" />
+          <mxGeometry x="-220" y="-20" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-9" value="&lt;div&gt;create separate tox file for the effect&lt;/div&gt;&lt;div&gt;parameterize most important features of effect&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="100" y="30" width="120" height="90" as="geometry" />
+          <mxGeometry x="-220" y="20" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-10" value="&lt;div&gt;create separate tox file for the effect&lt;/div&gt;&lt;div&gt;parameterize most important features of effect&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="100" y="120" width="120" height="90" as="geometry" />
+          <mxGeometry x="-220" y="110" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-11" value="deliverable format" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="-40" width="120" height="30" as="geometry" />
+          <mxGeometry x="-100" y="-50" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-12" value="&lt;div&gt;effects folder&lt;/div&gt;&lt;div&gt;Each element in here is a effect I built&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="-10" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-13" value="&lt;div&gt;shows folder&lt;/div&gt;&lt;div&gt;each file in here is a show/event we ran&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-14" value="Stellarscape Premier" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-15" value="Ammerman" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="-79" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-16" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="-79" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-17" value="Breathscape" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="281" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-18" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="281" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-19" value="Turnup" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="41" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-20" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="41" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-21" value="Sensor Lab" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="721" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-22" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="721" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-25" value="TFOB" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="161" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-26" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="161" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-27" value="Eclipse Party" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="401" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-28" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="401" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-29" value="Flandrau" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="521" y="640" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-30" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="560" width="120" height="30" as="geometry" />
+          <mxGeometry x="521" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-31" value="cocoon" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="620" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="730" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-32" value="particle pushing" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="650" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="760" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-33" value="curl field" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="680" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="790" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-34" value="1a" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="590" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="700" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-35" value="egg" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="710" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="820" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-36" value="bubble up" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="770" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="880" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-37" value="rings" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="800" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="910" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-38" value="bw fluid " style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="830" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="940" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-39" value="gold" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="890" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="1000" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-40" value="2a" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="740" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="850" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-41" value="gold driven bubble" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="950" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="1060" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-42" value="bw climax" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="980" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="1090" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-43" value="climax color" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="860" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="970" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-44" value="gold blob" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="920" width="120" height="30" as="geometry" />
+          <mxGeometry x="-199" y="1030" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-45" value="cocoon" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="590" width="120" height="30" as="geometry" />
+          <mxGeometry x="-79" y="700" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-46" value="blue curl" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="620" width="120" height="30" as="geometry" />
+          <mxGeometry x="-79" y="730" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-47" value="blue particle pushing" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="650" width="120" height="30" as="geometry" />
+          <mxGeometry x="-79" y="760" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-48" value="blue egg" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="680" width="120" height="30" as="geometry" />
+          <mxGeometry x="-79" y="790" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-49" value="video input bubbleup" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="590" width="120" height="30" as="geometry" />
+          <mxGeometry x="41" y="700" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-51" value="gold" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="620" width="120" height="30" as="geometry" />
+          <mxGeometry x="41" y="730" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-52" value="&lt;div&gt;video input gold fluid&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="620" width="120" height="30" as="geometry" />
+          <mxGeometry x="41" y="730" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-53" value="video input purple fluid" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="645" width="120" height="40" as="geometry" />
+          <mxGeometry x="41" y="755" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-54" value="video input egg" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="685" width="120" height="30" as="geometry" />
+          <mxGeometry x="41" y="795" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-59" value="cocoon" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="590" width="120" height="30" as="geometry" />
+          <mxGeometry x="161" y="700" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-60" value="blue curl" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="620" width="120" height="30" as="geometry" />
+          <mxGeometry x="161" y="730" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-61" value="blue particle pushing" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="650" width="120" height="30" as="geometry" />
+          <mxGeometry x="161" y="760" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-62" value="blue egg" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="680" width="120" height="30" as="geometry" />
+          <mxGeometry x="161" y="790" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" parent="1" target="axIEKIJKyA-PjPpkGT-X-69" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -240,7 +246,7 @@
           <mxGeometry x="1230" y="-210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-96" value="Networks I have to track down" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="1119" y="500" width="180" height="30" as="geometry" />
+          <mxGeometry x="720" y="610" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-97" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="90" width="40" height="40" as="geometry" />
@@ -417,13 +423,13 @@
           <mxGeometry x="1543" y="-965" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-30" value="&lt;div&gt;common effects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1030" width="120" height="30" as="geometry" />
+          <mxGeometry x="-329" y="1140" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-31" value="body_cloud" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1060" width="120" height="30" as="geometry" />
+          <mxGeometry x="-209" y="1170" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-32" value="fluid particles" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1090" width="120" height="30" as="geometry" />
+          <mxGeometry x="-209" y="1200" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-33" value="&lt;div&gt;put common effects into own folder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;a common effect is a sub effect used in multiple scene effects in a show&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="-400" width="120" height="110" as="geometry" />
@@ -445,6 +451,9 @@
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-17" value="handoff folder organization ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="-1080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-22" value="representation of the total number of effects/performances/events" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="540" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
