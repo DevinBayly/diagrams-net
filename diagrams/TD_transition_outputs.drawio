@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T22:20:17.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="hnn8D7gNmRycbRMoC_I-" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T23:19:21.707Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="6v8vOienzKrQFQeVKh_L" version="21.2.9" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
-    <mxGraphModel dx="2092" dy="3021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1785" dy="3021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -461,8 +461,11 @@
         <mxCell id="_WsvdaKu7v9qWKS5zPcd-1" value="&lt;div&gt;obstacles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
           <mxGeometry x="1930" y="-1090" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_WsvdaKu7v9qWKS5zPcd-3" value="seems like developing scenes in separate toes, will require the internal params to be setup up differently than they would be when they are in an actual performance context&lt;br&gt;&lt;br&gt;resolution to rely on constants in the individual scene developments and then when it&#39;s placed in a performance it gets global steering?" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="-1040" width="120" height="260" as="geometry" />
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-3" value="seems like developing scenes in separate toes, will require the internal params to be setup up differently than they would be when they are in an actual performance context&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;forgot why the internal params got added to the individual effect space&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;resolution to rely on constants in the individual scene developments and then when it&#39;s placed in a performance it gets global steering?" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="-1075" width="120" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-5" value="seems like there might be a data race condition created by a scene looking for custom operators inside it vs the rate that the internal operator looks through the different scenes to extract common globals" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="-1075" width="120" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
