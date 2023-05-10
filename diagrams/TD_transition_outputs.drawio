@@ -1,28 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T19:29:07.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="A4rnUF0dHZFiTquRM-C3" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T22:20:17.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="hnn8D7gNmRycbRMoC_I-" version="21.2.9" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
-    <mxGraphModel dx="1678" dy="2747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2092" dy="3021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="-1100" width="850" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-420" y="520" width="1350" height="820" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-230" y="-110" width="850" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-230" y="-625" width="850" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="-1090" width="850" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="972" y="-350" width="1538" height="810" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="-1090" width="850" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="-1490" width="490" height="380" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-5" value="effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
@@ -437,23 +440,29 @@
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-36" value="establish a tagging system that allows us to tell when an effect was made by us and needs to have it&#39;s parameters picked up by the general parameter controller" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="-560" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-1" value="&lt;div&gt;scenes&lt;/div&gt;&lt;div&gt;A description of what is contained within the scenes comp&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-1" value="&lt;div&gt;scenes&lt;/div&gt;&lt;div&gt;A description of what is contained within the scenes comp&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="-1470" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-2" value="&lt;div&gt;the internal params .tox&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Scripted to hold onto the common parameters of all components that are tagged with Effect tag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-2" value="&lt;div&gt;the internal params .tox&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Scripted to hold onto the common parameters of all components that are tagged with Effect tag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="-1470" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-3" value="&lt;div&gt;scene effects&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;s1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;these scenes hold the references to the parameters that control their behavior, they can be brought out of constant mode to make them behave according to the internal scene params (global/consistent behavior) or they can be modified to have customized capabilities&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-3" value="&lt;div&gt;scene effects&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;s1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;these scenes hold the references to the parameters that control their behavior, they can be brought out of constant mode to make them behave according to the internal scene params (global/consistent behavior) or they can be modified to have customized capabilities&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="-1470" width="120" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-15" value="teaching prep for drop in sessions" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-15" value="teaching prep for drop in sessions" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="980" y="-345" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-17" value="handoff folder organization ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-17" value="handoff folder organization ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="-1080" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-22" value="representation of the total number of effects/performances/events" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-22" value="representation of the total number of effects/performances/events" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="-410" y="540" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-1" value="&lt;div&gt;obstacles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="-1090" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-3" value="seems like developing scenes in separate toes, will require the internal params to be setup up differently than they would be when they are in an actual performance context&lt;br&gt;&lt;br&gt;resolution to rely on constants in the individual scene developments and then when it&#39;s placed in a performance it gets global steering?" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="-1040" width="120" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
