@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T19:23:58.357Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="JpY1kUG6VJ-fvqikpike" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T19:27:13.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="viE5t4RSQ7DSjvggtiDh" version="21.2.7" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
-    <mxGraphModel dx="3955" dy="4253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2506" dy="3295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="-625" width="850" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="-1090" width="850" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="972" y="-350" width="1538" height="810" as="geometry" />
+        </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="-1090" width="850" height="420" as="geometry" />
         </mxCell>
@@ -165,85 +174,85 @@
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" parent="1" target="axIEKIJKyA-PjPpkGT-X-69" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="65" as="sourcePoint" />
+            <mxPoint x="1180" y="65" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" parent="1" target="axIEKIJKyA-PjPpkGT-X-70" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="65" as="sourcePoint" />
+            <mxPoint x="1180" y="65" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" parent="1" target="axIEKIJKyA-PjPpkGT-X-71" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="65" as="sourcePoint" />
+            <mxPoint x="1180" y="65" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;" parent="1" target="axIEKIJKyA-PjPpkGT-X-76" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="65" as="sourcePoint" />
+            <mxPoint x="1180" y="65" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="axIEKIJKyA-PjPpkGT-X-73" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="65" as="sourcePoint" />
+            <mxPoint x="1180" y="65" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" parent="1" target="axIEKIJKyA-PjPpkGT-X-72" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="65" as="sourcePoint" />
+            <mxPoint x="1180" y="65" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" parent="1" target="axIEKIJKyA-PjPpkGT-X-81" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="65" as="sourcePoint" />
+            <mxPoint x="1180" y="65" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;" parent="1" target="axIEKIJKyA-PjPpkGT-X-77" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="65" as="sourcePoint" />
+            <mxPoint x="1180" y="65" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-63" value="training material ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="50" width="120" height="30" as="geometry" />
+          <mxGeometry x="1060" y="50" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-70" value="adding elements" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="-140" width="110" height="30" as="geometry" />
+          <mxGeometry x="1230" y="-140" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-71" value="going up and down layers" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="-70" width="160" height="30" as="geometry" />
+          <mxGeometry x="1230" y="-70" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-72" value="splitting the view" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="140" width="110" height="30" as="geometry" />
+          <mxGeometry x="1230" y="140" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-73" value="referencing" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="70" width="80" height="30" as="geometry" />
+          <mxGeometry x="1230" y="70" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-76" value="sending outputs via wires" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="680" width="160" height="30" as="geometry" />
+          <mxGeometry x="1230" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-77" value="&lt;div&gt;working with types of inputs found in my networks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="280" width="106" height="60" as="geometry" />
+          <mxGeometry x="1230" y="280" width="106" height="60" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-81" value="rendering points" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="680" y="210" width="120" height="30" as="geometry" />
+          <mxGeometry x="1230" y="210" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-69" value="understanding parameters" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="-210" width="160" height="30" as="geometry" />
+          <mxGeometry x="1230" y="-210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-96" value="Networks I have to track down" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="1159" y="500" width="180" height="30" as="geometry" />
+          <mxGeometry x="1119" y="500" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="axIEKIJKyA-PjPpkGT-X-97" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="90" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-1" value="return to the scene changer" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="953" y="-210" width="160" height="30" as="geometry" />
+          <mxGeometry x="1503" y="-210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-2" value="work a bit with buttons today" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="950" y="-140" width="160" height="30" as="geometry" />
+          <mxGeometry x="1500" y="-140" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-3" value="navigating the views making a panel" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="953" y="-80" width="160" height="40" as="geometry" />
+          <mxGeometry x="1503" y="-80" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8prkjfwwkmIOHAyzSjH_-4" target="8prkjfwwkmIOHAyzSjH_-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -255,7 +264,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-4" value="exercise" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="950" y="-10" width="160" height="30" as="geometry" />
+          <mxGeometry x="1500" y="-10" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8prkjfwwkmIOHAyzSjH_-5" target="8prkjfwwkmIOHAyzSjH_-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -264,10 +273,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-5" value="&lt;div&gt;working with types of inputs found in my networks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="973" y="240" width="106" height="60" as="geometry" />
+          <mxGeometry x="1523" y="240" width="106" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-6" value="focus on glsl tops and mats&lt;br&gt;mostly talking about finding uniforms and usng them in certain ways" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1156" y="130" width="106" height="110" as="geometry" />
+          <mxGeometry x="1706" y="130" width="106" height="110" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8prkjfwwkmIOHAyzSjH_-8" target="8prkjfwwkmIOHAyzSjH_-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -276,64 +285,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-8" value="post processing fundamentals" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="970" y="350" width="106" height="40" as="geometry" />
+          <mxGeometry x="1520" y="350" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-9" value="&lt;div&gt;using feedback&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1156" y="355" width="106" height="30" as="geometry" />
+          <mxGeometry x="1706" y="355" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-11" value="using luma blurs" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1156" y="389" width="106" height="30" as="geometry" />
+          <mxGeometry x="1706" y="389" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-14" value="using the optical flow" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1159" y="250" width="106" height="40" as="geometry" />
+          <mxGeometry x="1709" y="250" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-16" value="&lt;div&gt;button trigger something&lt;/div&gt;&lt;div&gt;like the start or end of the scene. the off on thing related to turnup&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1195" y="-130" width="160" height="70" as="geometry" />
+          <mxGeometry x="1745" y="-130" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-18" value="change parameters on two of the effects" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="10" width="160" height="40" as="geometry" />
+          <mxGeometry x="1770" y="10" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8prkjfwwkmIOHAyzSjH_-20" value="update the time that the different effects " style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="60" width="160" height="40" as="geometry" />
+          <mxGeometry x="1770" y="60" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-1" value="First session" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="620" y="-280" width="160" height="30" as="geometry" />
+          <mxGeometry x="1170" y="-280" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-2" value="second session" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="996" y="-290" width="160" height="30" as="geometry" />
+          <mxGeometry x="1546" y="-290" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-3" value="third session" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="-280" width="160" height="30" as="geometry" />
+          <mxGeometry x="2170" y="-280" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-4" value="using the optical flow" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="-220" width="106" height="40" as="geometry" />
+          <mxGeometry x="2260" y="-220" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-5" value="more instancing" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="-170" width="106" height="30" as="geometry" />
+          <mxGeometry x="2260" y="-170" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-6" value="using the TFOB and TURNup networks" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="-125" width="106" height="60" as="geometry" />
+          <mxGeometry x="2260" y="-125" width="106" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-7" value="cameras and the geometry view" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="-55" width="106" height="40" as="geometry" />
+          <mxGeometry x="2260" y="-55" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-8" value="show them the panel viewer issue and correct it" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="-10" width="106" height="60" as="geometry" />
+          <mxGeometry x="2260" y="-10" width="106" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-9" value="display options" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="60" width="106" height="30" as="geometry" />
+          <mxGeometry x="2260" y="60" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-10" value="ask about sharing the recordings with marcos" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="110" width="106" height="60" as="geometry" />
+          <mxGeometry x="2260" y="110" width="106" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-11" value="&lt;div&gt;using feedback&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="180" width="106" height="30" as="geometry" />
+          <mxGeometry x="2260" y="180" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISq-TGhER7DgccQ3ykd7-13" value="for next time lets retrieve an external camera to use" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="220" width="106" height="60" as="geometry" />
+          <mxGeometry x="2260" y="220" width="106" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-2" value="organization systems ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="-560" width="120" height="40" as="geometry" />
+          <mxGeometry x="-220" y="-610" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-3" value="tox file effects have an internal parameter operator that they refer to for common parameters" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="-560" width="120" height="90" as="geometry" />
@@ -393,19 +402,19 @@
           <mxGeometry x="320" y="-490" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-25" value="common folder contents" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="980" y="-1050" width="120" height="40" as="geometry" />
+          <mxGeometry x="1184" y="-965" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-26" value="scene internal .tox .toe" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="-1050" width="120" height="40" as="geometry" />
+          <mxGeometry x="1304" y="-965" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-27" value="python extension code" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="1219" y="-1050" width="120" height="40" as="geometry" />
+          <mxGeometry x="1423" y="-965" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-28" value="extension code helper code" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="-1010" width="120" height="40" as="geometry" />
+          <mxGeometry x="1304" y="-925" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-29" value="&lt;div&gt;rationale&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;using a tox for the internal params makes it easy to have a single place to modify the internal parameter operator that we use in show network scene&lt;/div&gt;&lt;div&gt;bases and individual effect .toe files for testing&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="1339" y="-1050" width="120" height="200" as="geometry" />
+          <mxGeometry x="1543" y="-965" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-30" value="&lt;div&gt;common effects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="1030" width="120" height="30" as="geometry" />
@@ -419,23 +428,23 @@
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-33" value="&lt;div&gt;put common effects into own folder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;a common effect is a sub effect used in multiple scene effects in a show&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="-400" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0WaZHpqxp3nUxZz5_Epp-34" value="questions" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="972" y="-590" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0WaZHpqxp3nUxZz5_Epp-35" value="if we have a tox with params nested way down in our network is there a way to tell the parent to add those parameters to it&#39;s own for easy access?" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1132" y="-590" width="160" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-36" value="establish a tagging system that allows us to tell when an effect was made by us and needs to have it&#39;s parameters picked up by the general parameter controller" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="-560" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-1" value="&lt;div&gt;scenes&lt;/div&gt;&lt;div&gt;A description of what is contained within the scenes comp&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="-1470" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="i5bP8zaX-EdhUrO5eue8-2" value="&lt;div&gt;the internal params .tox&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Scripted to hold onto the common parameters of all components that are tagged with Effect tag&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-2" value="&lt;div&gt;the internal params .tox&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Scripted to hold onto the common parameters of all components that are tagged with Effect tag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="-1470" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-3" value="&lt;div&gt;scene effects&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;s1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sn&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;these scenes hold the references to the parameters that control their behavior, they can be brought out of constant mode to make them behave according to the internal scene params (global/consistent behavior) or they can be modified to have customized capabilities&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="-1470" width="120" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-15" value="teaching prep for drop in sessions" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-345" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i5bP8zaX-EdhUrO5eue8-17" value="handoff folder organization ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-1080" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
