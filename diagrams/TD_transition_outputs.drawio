@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T23:19:21.707Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="6v8vOienzKrQFQeVKh_L" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T02:45:10.400Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/113.0" etag="0kOwIbxCxre5F5gvrajd" version="21.2.9" type="github">
   <diagram name="Page-1" id="jO3RNPpzsi-vT6jWUySs">
-    <mxGraphModel dx="1785" dy="3021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2092" dy="3021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_WsvdaKu7v9qWKS5zPcd-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1905" y="-1100" width="850" height="420" as="geometry" />
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -14,7 +14,7 @@
           <mxGeometry x="-230" y="-110" width="850" height="420" as="geometry" />
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="-625" width="850" height="420" as="geometry" />
+          <mxGeometry x="-700" y="-625" width="1320" height="420" as="geometry" />
         </mxCell>
         <mxCell id="i5bP8zaX-EdhUrO5eue8-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="-1090" width="850" height="420" as="geometry" />
@@ -350,14 +350,14 @@
         <mxCell id="ISq-TGhER7DgccQ3ykd7-13" value="for next time lets retrieve an external camera to use" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="2260" y="220" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0WaZHpqxp3nUxZz5_Epp-2" value="organization systems ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="-610" width="120" height="40" as="geometry" />
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-2" value="current organization systems ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="-610" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0WaZHpqxp3nUxZz5_Epp-3" value="tox file effects have an internal parameter operator that they refer to for common parameters" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="-560" width="120" height="90" as="geometry" />
+        <mxCell id="0WaZHpqxp3nUxZz5_Epp-3" value="&lt;div&gt;tox file effects have an internal parameter operator that they refer to for common parameters&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ignored for sake that this complicates global local param reference system and .tox development process&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
+          <mxGeometry x="-660" y="-530" width="120" height="190" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-4" value="it is possble for the reference to the internal parameter to be overwritten by manual intervention if you want individual effect diff" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="-470" width="120" height="110" as="geometry" />
+          <mxGeometry x="80" y="-350" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0WaZHpqxp3nUxZz5_Epp-5" value="trying to strike balance between flexibility and degree to which you must navigate in each system" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="-560" width="120" height="100" as="geometry" />
@@ -458,14 +458,23 @@
         <mxCell id="i5bP8zaX-EdhUrO5eue8-22" value="representation of the total number of effects/performances/events" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="-410" y="540" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_WsvdaKu7v9qWKS5zPcd-1" value="&lt;div&gt;obstacles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-1" value="&lt;div&gt;obstacles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="1930" y="-1090" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_WsvdaKu7v9qWKS5zPcd-3" value="seems like developing scenes in separate toes, will require the internal params to be setup up differently than they would be when they are in an actual performance context&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;forgot why the internal params got added to the individual effect space&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;resolution to rely on constants in the individual scene developments and then when it&#39;s placed in a performance it gets global steering?" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-3" value="seems like developing scenes in separate toes, will require the internal params to be setup up differently than they would be when they are in an actual performance context&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;forgot why the internal params got added to the individual effect space&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;resolution to rely on constants in the individual scene developments and then when it&#39;s placed in a performance it gets global steering?" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="2110" y="-1075" width="120" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="_WsvdaKu7v9qWKS5zPcd-5" value="seems like there might be a data race condition created by a scene looking for custom operators inside it vs the rate that the internal operator looks through the different scenes to extract common globals" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+        <mxCell id="_WsvdaKu7v9qWKS5zPcd-5" value="seems like there might be a data race condition created by a scene looking for custom operators inside it vs the rate that the internal operator looks through the different scenes to extract common globals" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" parent="1" vertex="1">
           <mxGeometry x="2240" y="-1075" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2w5QvKFj95cEM5f36B8t-1" value="prior organizational system ideas" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2w5QvKFj95cEM5f36B8t-2" value="each effect has it&#39;s own child param reference system and uses extension provided custom params and references " style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-560" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2w5QvKFj95cEM5f36B8t-3" value="global effect control components within scene find common param pages, and simply provide overridable controls (for effects that share a subeffect, we want to not have to always keep these effects params synched)" style="rounded=0;whiteSpace=wrap;html=1;autosize=1;fixedWidth=1;resizeHeight=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-450" width="120" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
