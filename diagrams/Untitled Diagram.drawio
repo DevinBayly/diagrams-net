@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T21:40:19.111Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" version="21.3.8" etag="BEEibCL1tr10x5Pa5a2H" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T21:49:31.268Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="zTj1OGLUALaktQlSGS-7" version="21.3.8" type="github">
   <diagram name="Page-1" id="MHcUiq6WpDQYky3Nm4rv">
-    <mxGraphModel>
+    <mxGraphModel dx="2284" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iG6b-2xu__tHotN4vy7j-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iG6b-2xu__tHotN4vy7j-6" target="iG6b-2xu__tHotN4vy7j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-5" value="outputs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iG6b-2xu__tHotN4vy7j-4">
+          <mxGeometry x="-0.3116" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iG6b-2xu__tHotN4vy7j-8" target="iG6b-2xu__tHotN4vy7j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-10" value="executes the python indexing script " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iG6b-2xu__tHotN4vy7j-7">
+          <mxGeometry x="-0.2156" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iG6b-2xu__tHotN4vy7j-1" target="iG6b-2xu__tHotN4vy7j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-11" value="&lt;div&gt;starts sbatch allocations&lt;/div&gt;&lt;div&gt;&amp;nbsp;to index downloaded tar files&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iG6b-2xu__tHotN4vy7j-9">
+          <mxGeometry x="-0.2696" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-1" value="&lt;div&gt;transfer_dates.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;this script should be run on the filexfer nodes of the hpc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;swap out the date urls that you are interested in&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;this program iterates over the tar files for the dates and downloads them with irods&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;when each download finishes, it kicks off a batch job that performs an indexing operation on the tar file. That indexing operation will remove the .tar file at the end of it&#39;s process so you don&#39;t run out of space in whatever drive you&#39;re in&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="510" width="120" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-3" value="{date_string}_segmentation_pointclouds_index" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="285" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-6" value="&lt;div&gt;indexer.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;nothing fancy, just runs the tar cmd with special flags.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This lists out the contents of a tar file with specific information about the byte offsets for the archived file data&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-8" value="&lt;div&gt;sbatch_indexer.sh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;receives cmd input of the tar file to index and then remove&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;header outlines most of the allocation information that I&#39;ve found to be the max necessary for an indexing pass on a tar file&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="590" width="120" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
