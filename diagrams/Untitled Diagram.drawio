@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T21:49:31.268Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="zTj1OGLUALaktQlSGS-7" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T22:07:01.024Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="ppwX255710PV7QkUCq7z" version="21.3.8" type="github">
   <diagram name="Page-1" id="MHcUiq6WpDQYky3Nm4rv">
-    <mxGraphModel dx="2284" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2899" dy="2274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,8 +28,8 @@
             <mxPoint x="6" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iG6b-2xu__tHotN4vy7j-1" value="&lt;div&gt;transfer_dates.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;this script should be run on the filexfer nodes of the hpc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;swap out the date urls that you are interested in&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;this program iterates over the tar files for the dates and downloads them with irods&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;when each download finishes, it kicks off a batch job that performs an indexing operation on the tar file. That indexing operation will remove the .tar file at the end of it&#39;s process so you don&#39;t run out of space in whatever drive you&#39;re in&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="510" width="120" height="420" as="geometry" />
+        <mxCell id="iG6b-2xu__tHotN4vy7j-1" value="&lt;div&gt;transfer_dates.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;this script should be run on the filexfer nodes of the hpc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;swap out the date urls that you are interested in&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;this program iterates over the tar files for the dates and downloads them with irods&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;when each download finishes, it kicks off a batch job that performs an indexing operation on the tar file. That indexing operation will remove the .tar file at the end of it&#39;s process so you don&#39;t run out of space in whatever drive you&#39;re in&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;**Note that you will need to modify this script in order to process the same way, it&#39;s currently using my netid for the ssh from the filexfer node to the login node so change that**&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="440" width="120" height="560" as="geometry" />
         </mxCell>
         <mxCell id="iG6b-2xu__tHotN4vy7j-3" value="{date_string}_segmentation_pointclouds_index" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="285" width="260" height="30" as="geometry" />
@@ -39,6 +39,34 @@
         </mxCell>
         <mxCell id="iG6b-2xu__tHotN4vy7j-8" value="&lt;div&gt;sbatch_indexer.sh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;receives cmd input of the tar file to index and then remove&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;header outlines most of the allocation information that I&#39;ve found to be the max necessary for an indexing pass on a tar file&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="590" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iG6b-2xu__tHotN4vy7j-12" target="iG6b-2xu__tHotN4vy7j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-18" value="&lt;div&gt;reads these index files to determine what the byte range requests&lt;/div&gt;&lt;div&gt;&amp;nbsp;needs to be in order to download individual plant files from the tar archives&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iG6b-2xu__tHotN4vy7j-17">
+          <mxGeometry x="0.25" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-12" value="&lt;div&gt;fetcher_for_sbatch.py&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="130" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iG6b-2xu__tHotN4vy7j-13" target="iG6b-2xu__tHotN4vy7j-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-16" value="executes this script" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iG6b-2xu__tHotN4vy7j-15">
+          <mxGeometry x="-0.1901" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-13" value="&lt;div&gt;fetcher_for_sbatch.sh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This allocates alengthy 8 hour session with 8 cores and performs the tasks of downloading all the final.ply&#39;s that were present in the field at the final date of the season&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;consult the fetcher_for_sbatch.py file for comments about how to modify to suit your purposes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fixedWidth=1;resizeHeight=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-45" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iG6b-2xu__tHotN4vy7j-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="240" as="sourcePoint" />
+            <mxPoint x="1020" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
