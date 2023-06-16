@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-06-16T00:12:27.880Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="wzZwjaHfSJc9LzyeqrTM" version="21.2.9" type="github">
+  <diagram name="Page-1" id="0wguQ76YiwSqDK99gHfy">
+    <mxGraphModel dx="1360" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-1" value="parent spatial node" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-2" value="central script functions" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="125" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4kwB6RhjjtPIvawW0hcN-3" target="4kwB6RhjjtPIvawW0hcN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-5" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4kwB6RhjjtPIvawW0hcN-4">
+          <mxGeometry x="0.2276" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-3" value="main_vr.gd" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4kwB6RhjjtPIvawW0hcN-6" target="4kwB6RhjjtPIvawW0hcN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-8" value="&amp;nbsp; " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4kwB6RhjjtPIvawW0hcN-7">
+          <mxGeometry x="-0.2848" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-10" value="script attached to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4kwB6RhjjtPIvawW0hcN-7">
+          <mxGeometry x="-0.3818" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-6" value="scene_basic_behavior.gd" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="420" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4kwB6RhjjtPIvawW0hcN-9" value="scene7" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
