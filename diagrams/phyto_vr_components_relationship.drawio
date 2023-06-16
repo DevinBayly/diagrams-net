@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T00:34:47.239Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="F95lcf_t2gGk5R1dD92O" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T00:48:11.849Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="INXclfVEQ0jz5kQpd55w" version="21.2.9" type="github">
   <diagram name="Page-1" id="0wguQ76YiwSqDK99gHfy">
-    <mxGraphModel dx="1360" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3022" dy="2802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,8 +153,48 @@
         <mxCell id="ln1YY3OUBzTWCqrGMW5q-30" value="&lt;div&gt;collision shape&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for interaction that causes activation&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="135" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ln1YY3OUBzTWCqrGMW5q-31" value="&lt;div&gt;load_from_json()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;threaded&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;accepts a path to a json file&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;currently setup to take a file that has the order showing a wrapping of the plants to keep similar genotypes together&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="305" width="120" height="200" as="geometry" />
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ln1YY3OUBzTWCqrGMW5q-31" target="ln1YY3OUBzTWCqrGMW5q-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-31" value="&lt;div&gt;load_from_json(jpth)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;threaded&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;accepts a path to a json file&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;currently setup to take a file that has the order showing a wrapping of the plants to keep similar genotypes together&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;reads the x,z coordinates from the json to figure out where to place the plants also&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="260" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ln1YY3OUBzTWCqrGMW5q-33" target="ln1YY3OUBzTWCqrGMW5q-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-33" value="load_add_plant(pth,x=0,z=0)" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="390" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-36" value="&lt;div&gt;make_pt_area(pth)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;creates the pt, and area elements from the .tscn and the custom gdnlib&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;in the course of running this function we also bind the pt to the pt to the area via the area&#39;s .set_plant method&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;we also calculate the name of the plant for the area element so that it knows what data to look up in the folders to put in the vis panel&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="90" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ln1YY3OUBzTWCqrGMW5q-38" target="ln1YY3OUBzTWCqrGMW5q-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ln1YY3OUBzTWCqrGMW5q-38" target="ln1YY3OUBzTWCqrGMW5q-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-45" value="imports this to instantiate on &quot;active&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ln1YY3OUBzTWCqrGMW5q-44">
+          <mxGeometry x="0.3263" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-38" value="&lt;div&gt;area.gd&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-35" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ln1YY3OUBzTWCqrGMW5q-41" target="ln1YY3OUBzTWCqrGMW5q-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-49" value="holds reference to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ln1YY3OUBzTWCqrGMW5q-48">
+          <mxGeometry x="0.6431" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-41" value="scrollview.tscn" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-47" value="video_render_player.tscn" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-370" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
