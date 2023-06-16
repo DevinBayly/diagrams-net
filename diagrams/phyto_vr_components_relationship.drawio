@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T00:33:09.602Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="gLt2pzlg8lGJrDKJvYPF" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T00:34:47.239Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="F95lcf_t2gGk5R1dD92O" version="21.2.9" type="github">
   <diagram name="Page-1" id="0wguQ76YiwSqDK99gHfy">
     <mxGraphModel dx="1360" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -79,6 +79,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ln1YY3OUBzTWCqrGMW5q-3" target="ln1YY3OUBzTWCqrGMW5q-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ln1YY3OUBzTWCqrGMW5q-3" value="full_scene_setup()" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="335" width="120" height="30" as="geometry" />
         </mxCell>
@@ -149,6 +152,9 @@
         </mxCell>
         <mxCell id="ln1YY3OUBzTWCqrGMW5q-30" value="&lt;div&gt;collision shape&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for interaction that causes activation&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="135" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ln1YY3OUBzTWCqrGMW5q-31" value="&lt;div&gt;load_from_json()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;threaded&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;accepts a path to a json file&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;currently setup to take a file that has the order showing a wrapping of the plants to keep similar genotypes together&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="305" width="120" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
