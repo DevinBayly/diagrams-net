@@ -1,9 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T14:45:04.824Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.5.0" etag="tJS47FCS62syswoJXYHJ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T15:14:07.991Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="4WfEZoTU7BB5gBgAZugM" version="21.5.0" type="github">
   <diagram name="Page-1" id="3Q7hTPayOgsUOze7sbMF">
-    <mxGraphModel>
+    <mxGraphModel dx="2210" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-1" value="next approaches" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="790" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-2" value="&lt;div&gt;terms&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Flight : one run of the drone over an area&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mission : an area captured using multiple flights in a day or several days&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sm : stands for split merge workflows that open drone map facilitates that supposedly enable uploads of many images and processing in parts which are subsequently joined&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;split group: a collection of photos that might belong to one or more flights that are identified as corresponding to a processing chunk in a customized split merge workflow&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-50" width="160" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-3" value="&lt;div&gt;limitations&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OOM : many of these workflows result in out of memory errors due to the fact on the HPC I can&#39;t control the swap disk size of my jobs. suggestions from ODM community therefore largely don&#39;t apply along these lines&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SM : this workflow doesn&#39;t merge all assets only orthophoto and point cloud&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="15" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-4" value="cluster approach" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="595" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-5" target="QWEOjBDU9xAMLXo4c0lK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-5" value="start 6 nodes with 4 or 8 cores running for 8 hours" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="645" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-6" target="QWEOjBDU9xAMLXo4c0lK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-6" value="add their ports and ips to the cluster nodes configurations file" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="635" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-8" target="QWEOjBDU9xAMLXo4c0lK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-8" value="start cluster singularity container" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="645" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-10" value="&lt;div&gt;start odm processing on a folder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;speficy the following flags&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;--split 100&lt;/div&gt;&lt;div&gt;--split-overlap 120&lt;/div&gt;&lt;div&gt;--feature-quality medium&lt;/div&gt;&lt;div&gt;--sm-cluster http://localhost:3000&lt;/div&gt;&lt;div&gt;--max-concurrency 8&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="580" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-12" target="QWEOjBDU9xAMLXo4c0lK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-12" value="create an OOD interactive desktop session for 10-12 cores 10 hours" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="635" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-15" value="&lt;div&gt;issues faced with this workflow&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OOM plagues a signinficant number of the flights&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;restarts seem to re-run opensfm part of the workflow which takes no small amount of time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ultimately unclear what the final &quot;merge&quot; part will make available and how good that&#39;s going to appear&lt;br&gt; &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="550" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-16" value="vanilla batch" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="290" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-17" target="QWEOjBDU9xAMLXo4c0lK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-17" value="generate a file &quot;staged_flights.txt&quot; that includes the flights that are to be processed " style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="355" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-18" target="QWEOjBDU9xAMLXo4c0lK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-18" value="run python script that iterates over the individual lines of &quot;staged_flights.txt&quot; and makes a processing folder in the &quot;tmp&quot; dir and launches an sbatch task for each" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="340" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-20" value="&lt;div&gt;shell script launched by task ensures that &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;images are copied from initial location in upload folder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;the odm singularity container is launched providing the correct cli arguments&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="320" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-22" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-23" value="&lt;div&gt;issues faced with this workflow&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;some processes complete while others don&#39;t so requires multiple passes that provide more memory to failed runs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;we are forced to generate resulting geometries that are the shapes of the flights which might be less ideal (typically long narrow strips is the flight plan)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;opensfm folder is taking up more space than it should (entire undistorted folder which is many x the original images folder size)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="255" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-25" value="things tried" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-26" target="QWEOjBDU9xAMLXo4c0lK-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-26" value="use the &quot;import geotagged images&quot; process in qgis to make markers from each flight " style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1055" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-27" target="QWEOjBDU9xAMLXo4c0lK-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-27" value="&lt;div&gt;run a python script that takes a start and end gps coord plus a chunk number, and overlap percent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;this tiles up all the photos regardless of flight and outputs a json that includes the paths to each image that&#39;s part of a split group&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1010" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-29" value="customized split merge" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="850" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWEOjBDU9xAMLXo4c0lK-30" target="QWEOjBDU9xAMLXo4c0lK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-30" value="&lt;div&gt;run a python script that will start a number of slurm jobs to process each split group independently&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;job for each split group&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;will be responsible for creating a folder in the &quot;tmp&quot; processing area, and running the vanilla batch open drone map configuration of arguments&lt;br&gt; &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="990" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-32" value="&lt;div&gt;establish one ortho tif as the &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1075" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-34" value="splitting" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="910" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-35" value="processing" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="910" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QWEOjBDU9xAMLXo4c0lK-36" value="&lt;div&gt;merging ?&lt;/div&gt;utilize information from the accurately positioned ortho.tif to adjust the 3d models coordinates " style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="880" width="160" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
