@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T21:27:58.769Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="oMnUrLQUKdOGoCsM1j4D" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T21:46:13.089Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="9-o3qHiJ0Ye2cRDoSDij" version="21.6.2" type="github">
   <diagram name="Page-1" id="0wguQ76YiwSqDK99gHfy">
     <mxGraphModel dx="2210" dy="2966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -264,6 +264,12 @@
         </mxCell>
         <mxCell id="nMo4gvMEVJHZ66rYeXn8-28" value="&lt;div&gt;main scene planning&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if we create a parent scene that sets up the common things, and the stuff that can change is handled by the children then that&#39;s ideas&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;so a plant holder scene will handle loading the plants when requested by the main scene&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;it will also handle things like creating an area element per loaded plant&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;it can also pass information about the player interactions to the correct places making the integration between the player class and the plant systems a little less inflexible&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="-1855" width="160" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="puUKMJNBk92V60adM0X8-1" value="&lt;div&gt;question at this point is whether we somehow disconnect the areas from the plant loader&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;as in, does the plant loader only load models, and then the main scene is the one that connects them up?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;that would make sense, but then if the plants are getting added asynchronously. how should we pair them with the area boxes that represent them&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;also, the area boxes play a role in helping to identify which plant we want at higher or lower resolution so that part is important and would need to be handled some other way&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-1730" width="160" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="puUKMJNBk92V60adM0X8-2" value="&lt;div&gt;main scene could hold a dictionary&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;in the dictionary we map from plant names to collection of area and point cloud objects, or even display options also&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;then when an area signals, the main scene can receive a name from the area element, and get back all the things that need to be worked on&lt;/div&gt;&lt;div&gt;- change point cloud skip&lt;/div&gt;&lt;div&gt;- reveal area outline and hide other one&lt;/div&gt;&lt;div&gt;- get ready to show the display element (either hover or docked)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-1685" width="160" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
