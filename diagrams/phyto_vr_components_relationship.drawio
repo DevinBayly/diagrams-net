@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T18:40:51.286Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="uBQKPYYGxjjxaVQNYnhN" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T19:31:04.810Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="rclGH4mFRylSbNFWy9Ai" version="21.5.2" type="github">
   <diagram name="Page-1" id="0wguQ76YiwSqDK99gHfy">
     <mxGraphModel dx="2210" dy="2966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -261,6 +261,9 @@
         </mxCell>
         <mxCell id="nMo4gvMEVJHZ66rYeXn8-27" value="&lt;div&gt;the question is what parts should be under a general_select function vs specialized by desktop and vr&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;well really it has to do wtih final placement (hover or window sidebar) and trigger method&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;the trigger method is going to be handled by the player when it handles the bubbled up signal of interacting with the area&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;although that&#39;s like sending a message from the area scene back to the player, and then from player back to scene&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;the round trip part makes sense to ensure that the whole application is aware of what is happening&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1490" y="-1000" width="160" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="nMo4gvMEVJHZ66rYeXn8-28" value="&lt;div&gt;main scene planning&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if we create a parent scene that sets up the common things, and the stuff that can change is handled by the children then that&#39;s ideas&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-1740" width="160" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
