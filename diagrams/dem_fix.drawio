@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T17:12:01.357Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="RRdmH8klK700GHZHnR0c" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T17:17:59.398Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="yjEqBAZKyt9FmAZi7IP9" version="21.6.2" type="github">
   <diagram name="Page-1" id="pgbQvvDMkWVgytZyrWOZ">
     <mxGraphModel dx="1364" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Y5qJZKl1_hITERiEZTMc-1" value="gdal has ability to sample value from tiff based on gps location" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="365" width="160" height="60" as="geometry" />
+        <mxCell id="Y5qJZKl1_hITERiEZTMc-1" value="&lt;div&gt;gdal has ability to sample value from tiff based on gps location&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://gdal.org/programs/gdallocationinfo.html&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://gis.stackexchange.com/questions/221292/retrieve-pixel-value-with-geographic-coordinate-as-input-with-gdal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://opensourceoptions.com/blog/pyqgis-get-raster-data-with-gdal/&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="160" height="230" as="geometry" />
         </mxCell>
         <mxCell id="Y5qJZKl1_hITERiEZTMc-2" value="&lt;div&gt;starting from initial aligned image get it&#39;s bbox coordinates&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="365" width="160" height="60" as="geometry" />
