@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T19:10:12.380Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" version="21.7.1" etag="jJ8DMAwmmVwESPH0Lpsa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T19:12:57.441Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="E_jOOEKhtbpNfGctQRLt" version="21.7.1" type="github">
   <diagram name="Page-1" id="8NhwypWuLb9t9XTJERLw">
-    <mxGraphModel>
+    <mxGraphModel dx="679" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U7j5HWY1Nn_W8iYrInw6-1" value="&lt;div&gt;kickoff odm.sh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;handles running the actual singularity container&lt;/div&gt;&lt;div&gt;also rclones the results back to the correct location&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="265" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U7j5HWY1Nn_W8iYrInw6-2" value="&lt;div&gt;odm_submit.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7j5HWY1Nn_W8iYrInw6-3" value="&lt;div&gt;odm_group.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7j5HWY1Nn_W8iYrInw6-4" value="&lt;div&gt;run_splits.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="430" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7j5HWY1Nn_W8iYrInw6-5" value="&lt;div&gt;symlink_group.py&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U7j5HWY1Nn_W8iYrInw6-6" value="&lt;div&gt;process_group.sh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;resizeHeight=1;fixedWidth=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
